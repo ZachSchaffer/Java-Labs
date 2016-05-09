@@ -230,10 +230,10 @@ public class Magpie4
     }
 
 
-    /**
-     * Pick a default response to use if nothing else fits.
-     * @return a non-committal string
-     */
+        /**
+         * Pick a default response to use if nothing else fits.
+         * @return a non-committal string
+         */
     private String getRandomResponse()
     {
         final int NUMBER_OF_RESPONSES = 4;
