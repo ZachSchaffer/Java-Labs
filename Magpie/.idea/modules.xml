@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Magpie2.iml" filepath="$PROJECT_DIR$/Magpie2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Magpie.iml" filepath="$PROJECT_DIR$/Magpie.iml" />
     </modules>
   </component>
 </project>
