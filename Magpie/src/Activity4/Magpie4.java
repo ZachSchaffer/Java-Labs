@@ -12,13 +12,14 @@ package Activity4;
  * @version April 2012
  *
  */
-public class Magpie4
+
+class Magpie4
 {
     /**
      * Get a default greeting
      * @return a greeting
      */
-    public String getGreeting()
+    String getGreeting()
     {
         return "Hello, let's talk.";
     }
@@ -30,9 +31,10 @@ public class Magpie4
      *            the user statement
      * @return a response based on the rules given
      */
-    public String getResponse(String statement)
+    String getResponse(String statement)
     {
-        String response = "";
+        String response;
+
         if (statement.length() == 0)
         {
             response = "Say something, please.";
@@ -82,7 +84,6 @@ public class Magpie4
                 response = getRandomResponse();
             }
         }
-
 
         return response;
     }
