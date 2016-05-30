@@ -57,7 +57,6 @@ public class Picture extends SimplePicture
    */
   public Picture(Picture copyPicture)
   {
-    // let the parent class do the copy
     super(copyPicture);
   }
  
@@ -254,9 +253,9 @@ public class Picture extends SimplePicture
     {
       for (int col = 0; col < pixels[0].length; col++) 
       {
-          Pixel myPixel = pixels[row][col]; //
+          Pixel myPixel = pixels[row][col]; 
           
-          boolean closeEnough = myPixel.colorDistance(averageColor) < maxDistance * tolerance; // stopped here, define this***
+          boolean closeEnough = myPixel.colorDistance(averageColor) < maxDistance * tolerance;
           if (closeEnough)
           {
               myPixel.setBlue(myPixel.getBlue() + 50);
